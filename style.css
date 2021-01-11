@@ -209,13 +209,14 @@ div#wrapper3{
 div#wrapper3 section{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
 
 div#wrapper3 section article{
     margin: 10px;
+    margin-left: 50px;
     flex-basis: 250px;
     border: 0px solid white;
     position: relative;
@@ -277,6 +278,10 @@ p{
     nav ul li{
         display: block;
         margin-top: 20px;
+    }
+
+    div#wrapper3 section article{
+        margin-left: 0;
     }
 
     h2{
