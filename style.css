@@ -1,0 +1,289 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+/*Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+In egestas dapibus nunc sed consequat. 
+Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget. 
+Fusce tortor ligula, pharetra nec augue id, blandit porta lacus. Donec imperdiet nisi ex, sed facilisis massa mattis non. 
+Vivamus eu orci eget magna hendrerit efficitur. Etiam eget turpis rutrum, commodo tortor non, ultricies orci. 
+Aliquam bibendum sapien tellus. Curabitur egestas massa tortor. Vivamus iaculis enim eu purus pretium interdum.*/
+
+body{
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #333333;
+}
+
+p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+}
+
+b{
+    color:#d9d9d9;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+hr{
+    width: 80%;
+    background-color: #737373;
+    margin-top: 5%;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/computer\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+header h1{
+    font-family: 'Audiowide', cursive;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/iconfinder_menu_4092560.png);
+    background-color:#000066;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color:#4d4d4d;
+}
+
+nav ul {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+nav ul li a{
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.6s;
+}
+
+nav ul li a:hover{
+    margin: 20px;
+    color: #ffffff;
+}
+
+/*HEADER AND NAV SECTION FINISHED HERE*/
+
+div#wrapper1{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #333333;
+}
+
+div#wrapper1 section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div#wrapper1 section article{
+    flex-basis: 120px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+
+/*FIRST SECTION FINISHED HERE*/
+
+div#wrapper2{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+}
+
+
+div#wrapper2 section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+div#wrapper2 section article{
+    margin: 10px;
+    flex-basis: 350px;
+    border: 0px solid white;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+div.icerik{
+    width: 40%;
+    border: 3px solid whitesmoke;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.icerik:hover{
+    border: 2px solid #00b300;
+}
+
+div.icerik p{
+    font-size: 20px;
+    text-align: center;
+}
+
+div.icerik p:hover{
+    color:  #00b300;
+}
+
+/*SECOND SECTION FINISHED HERE*/
+
+div#wrapper3{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+div#wrapper3 section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+div#wrapper3 section article{
+    margin: 10px;
+    flex-basis: 250px;
+    border: 0px solid white;
+    position: relative;
+}
+
+.icerik2{
+    width: 100%;
+    border: 0px solid black;
+    position: relative;
+    background: transparent;
+    padding: 10px;
+    background-color:#404040;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+/*THIRD SECTION FINISHED HERE*/
+
+footer{
+    padding: 20px;
+    margin-top: 5%;
+    background-color: #666666;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+/*FOOTER FINISHED HERE*/
+
+@media screen and (max-width:550px){
+    button{
+        display: block;
+    }
+
+
+    nav{
+        display: none;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    nav button{
+        background-color:transparent;
+    }
+
+    nav ul{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+}
+
+/*FINISHED!*/
+

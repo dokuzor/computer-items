@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="This website created by Doğukan DURUKAN">
+    <meta name="keywords" content="doğukan durukan, demo-website,homepage,pc,bilgisayar,computer,ekipman">
+    <meta name="author" content="Doğukan DURUKAN - dokuor">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>HomePage</title>
+</head>
+<body>
+    <main>
+        <header>
+            <button></button>
+            <nav>
+                <button></button>
+                <ul>
+        
+                        <li><a href="index.html">HomePage</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our products</a></li>
+                        <li><a href="#">Our success</a></li>
+                
+                </ul>
+            </nav>
+            <h1>dokuzor computer</h1>
+        
+        </header>
+
+        <!HEADER AND NAV SECTION FINISHED HERE>
+
+        <div id="wrapper1">
+            <section>
+                <article><img src="images/shopping_banner_image.png" alt="güvenli alışveriş"><p>%100 Güvenli <b>Alışveriş</b></p></article>
+                <article><img src="images/shopping_banner_image_2.png" alt="verilen siparişler"><p>Verilen Siparişeler</p><b>Aynı Gün Kargo</b></article>
+                <article><img src="images/shopping_banner_image_3.png" alt="çoklu ödeme Yöntemleri"><p>Çoklu Ödeme</p><b>Yöntemleri</b></article>
+                <article><img src="images/shopping_banner_image_5.png" alt="müşteri memnuniyeti"><p>%100 Müşteri</p><b>Memnuniyeti</b></article>
+            </section>
+
+        </div>
+
+        <!FIRST SECTION FINISHED HERE>
+
+           <hr>
+
+        <div id="wrapper2">
+            <section>
+                <article class="#"><img src="images/zowie.jpg" class="img"><div class="icerik"><p>ZOWIE</p></div></article>
+                <article class="#"><img src="images/corsair.jpg" class="img"><div class="icerik"><p>CORSAIR</p></div></article>
+                <article class="#"><img src="images/razer.jpg" class="img"><div class="icerik"><p>RAZER</p></div></article>
+            </section>
+        </div>
+
+<!SECOND SECTION FINISHED HERE>
+
+<hr>
+
+<div id="wrapper3">
+<section>
+    <article><img src="images/belali.jpg" class="img"><div class="icerik2"><p>MSI GeForce RTX 3060 Ti GAMING X TRIO 8GB GDDR6 256 Bit Ekran Kartı - AMD RYZEN 9 5900X 3.7GHz 64MB Önbellek 12 Çekirdek</p></div></article>
+    <article><img src="images/miniv1.jpg" class="img"><div class="icerik2"><p>GEFORCE GTX 1660 TI VENTUS 6G OC - 7 9700K 3.7GHz 9MB LGA1151 14nm HD630 Gaming İşlemci</p></div></article>
+    <article><img src="images/miniv2.jpg" class="img"><div class="icerik2"><p>Gigabyte 1660 ti OC - 6GB Ekran Kartı - AMD 3500x MPK 3.6GHz 16MB</p></div></article>
+    <article><img src="images/mahes.jpg" class="img"><div class="icerik2"><p>Msi GTX 1660S 6GB GDDR 192B - i5 9600K 3.7GHz 9MB LGA1151 14nm HD630 Gaming İşlemci
+    </p></div></article>
+</section>
+
+</div>
+
+<!THIRD SECTION FINISHED HERE>
+
+<footer><h2>Made by dokuzor - Doğukan DURUKAN</h2><p>2021.01.08</p></footer>
+<!FOOTER FINISHED HERE>
+    </main>
+
+    <script>
+        $(document).ready(function(){
+            $("header button").click(function(){
+                $("nav").slideDown(800);
+                $("header h1").css("display","none");
+                $("div#wrapper1").css("display","none");
+                $("div#wrapper2").css("display","none")
+                $("div#wrapper3").css("display","none")
+                $("hr").css("display","none")
+                $("footer").css("display","none")
+            });
+            $("nav button").click(function(){
+                $("nav").slideUp(800);
+                $("header h1").css("display","inline");
+                $("div#wrapper1").css("display","block");
+                $("div#wrapper2").css("display","block")
+                $("div#wrapper3").css("display","block")
+                $("hr").css("display","inline")
+                $("footer").css("display","block")
+
+            });
+        });
+    
+    </script>
+</body>
+</html>
+
+<!FINISHED>
